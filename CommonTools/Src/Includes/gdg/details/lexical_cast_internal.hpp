@@ -1,8 +1,18 @@
 #ifndef GDG_COMMON_TOOLS_DETAILS_LEXICAL_CAST_INTERNAL_HPP_
 #define GDG_COMMON_TOOLS_DETAILS_LEXICAL_CAST_INTERNAL_HPP_
 
+template<typename D, typename S, typename ImbueT>
+D lexical_cast(const S& s);
+
+template<typename D, typename ImbueT>
+D lexical_cast(const char* s);
+
+template<typename D, typename ImbueT>
+constexpr D lexical_cast(const wchar_t* s);
+
 namespace details_
 {
+
 template<typename I, typename C, typename D, typename S>
 D do_convert (const S &s)
 {

@@ -8,6 +8,7 @@
 
 #include <gdg/Exception.hpp>
 #include <gdg/source_location.hpp>
+#include <gdg/meta_tools.hpp>
 
 namespace gdg
 {

@@ -9,6 +9,7 @@
 #include <sstream>
 #include <tuple>
 #include <system_error>
+#include <execution>
 
 #include <gdg/exception.hpp>
 #include <gdg/lexical_cast.hpp>

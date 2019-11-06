@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\platform">
+      <UniqueIdentifier>{fa6376c5-5b5c-4967-a6a9-e0d151fc5da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\platform\win32">
+      <UniqueIdentifier>{c9b7b187-cce3-4bf2-8a8a-feff5beb36d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\details">
+      <UniqueIdentifier>{3e966158-c310-4d93-bd36-1bd9b1971bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{fd14fb2a-9977-470b-aba4-e249e1074f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32">
+      <UniqueIdentifier>{c3812217-a84d-41cd-9cdb-2e1ecd87dc4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Includes\disabled_warnings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\string_utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\string_utils_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\exception.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\lexical_cast.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\lexical_cast_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\meta_tools_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\meta_tools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\pre_processor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\raii.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\source_location.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\serialization_framework.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\sync_queue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\serialization_framework_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\tiny_ctti.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\tiny_ctti_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\tiny_ranges.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\Details\tiny_ranges_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\platform\win32\error_code.hpp">
+      <Filter>Header Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\details\platform_win32_error_code_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\platform\win32\sync_objects.hpp">
+      <Filter>Header Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\details\platform_win32_sync_objects_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\platform\win32\common.hpp">
+      <Filter>Header Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\platform\win32\seh.hpp">
+      <Filter>Header Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\details\platform_win32_seh_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonTools\CommonTools\Src\Includes\gdg\tiny_properties.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonTools\CommonTools\Src\Includes\gdg\details\tiny_properties_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

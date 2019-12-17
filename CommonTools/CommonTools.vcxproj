@@ -22,6 +22,8 @@
     <ClInclude Include="..\..\CommonTools\CommonTools\Src\Includes\gdg\details\tiny_properties_internal.hpp" />
     <ClInclude Include="..\..\CommonTools\CommonTools\Src\Includes\gdg\tiny_properties.hpp" />
     <ClInclude Include="Src\Includes\disabled_warnings.hpp" />
+    <ClInclude Include="Src\Includes\gdg\ct_string.hpp" />
+    <ClInclude Include="Src\Includes\gdg\details\ct_string_internal.hpp" />
     <ClInclude Include="Src\Includes\gdg\details\platform_win32_error_code_internal.hpp" />
     <ClInclude Include="Src\Includes\gdg\details\platform_win32_seh_internal.hpp" />
     <ClInclude Include="Src\Includes\gdg\details\platform_win32_sync_objects_internal.hpp" />

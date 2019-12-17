@@ -111,5 +111,11 @@
     <ClInclude Include="..\..\CommonTools\CommonTools\Src\Includes\gdg\details\tiny_properties_internal.hpp">
       <Filter>Header Files\details</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\details\ct_string_internal.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Includes\gdg\ct_string.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
